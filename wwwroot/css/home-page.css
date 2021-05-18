@@ -1,0 +1,37 @@
+﻿.columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    margin-top:2rem;
+}
+
+.demo-list {
+    transform: rotate(30deg);
+    /*transform-origin: bottom left;*/
+    display: flex;
+    text-align: left;
+    justify-content: center;
+    /*border: 2px solid black;*/
+}
+
+    .demo-list ul {
+        list-style-type: none;
+        display: grid;
+        /*align-items: flex-start;*/
+    }
+
+    .demo-list li {
+        transform: rotate(-60deg);
+        transform-origin: left;
+        border-bottom: 3px ridge darkgreen;
+        margin: 2vw;
+        padding: 20px 30px 5px 20px;
+        max-width: 10vw;
+        min-width: max-content;
+    }
+
+        .demo-list li a {
+            text-decoration: none;
+            color: navy;
+            font-size: 1.3em;
+        }

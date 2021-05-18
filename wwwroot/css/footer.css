@@ -1,0 +1,9 @@
+﻿footer{
+    height:60px;
+    padding-top: 0.1rem;
+}
+footer>div{
+    text-align:center;
+    line-height: 1.2rem;
+    height:100%;
+}
