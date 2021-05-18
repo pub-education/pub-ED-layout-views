@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>layout_views</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="wwwroot\lib\dump\**" />
+    <Content Remove="wwwroot\lib\dump\**" />
+    <EmbeddedResource Remove="wwwroot\lib\dump\**" />
+    <None Remove="wwwroot\lib\dump\**" />
+  </ItemGroup>
+
+</Project>
