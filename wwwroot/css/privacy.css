@@ -1,0 +1,19 @@
+﻿
+.privacy-page-wrapper {
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    width:100%;
+}
+
+.privacy-page-content {
+    width:75%;
+    margin-top:2rem;
+    margin-bottom:1rem;
+    border:none;
+    box-shadow:2px 2px 2px 2px royalblue;
+    border-radius: 8px;
+    padding-left:1rem;
+    padding-right:1rem;
+    padding-top:1.5rem;
+}
