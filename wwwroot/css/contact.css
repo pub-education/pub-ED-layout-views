@@ -1,0 +1,44 @@
+﻿.contact-wrapper{
+    margin-top:3rem;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-content:center;
+    min-height:60%;
+}
+
+.contact-content {
+    border-radius: 8px;
+    box-shadow: 2px 2px 2px 2px paleturquoise;
+    padding:1rem;
+}
+
+.contact-content h1{
+    margin-bottom:2rem;
+}
+
+.contact-data{
+    display:block;
+    background-color:transparent;
+    padding-left:5px;
+    padding-right:5px;
+    margin-bottom:1rem;
+    color:black !important;
+    resize:none;
+    border-color:paleturquoise;
+}
+
+*::before {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.email::before{
+    content: "Email:";
+}
+.phone::before {
+    content: "Telephone:";
+}
+.address::before{
+    content: "Address:";
+    
+}

@@ -1,0 +1,35 @@
+﻿.about-wrapper{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+}
+
+.about-content {
+    border-radius: 8px;
+    box-shadow: 2px 2px 2px 2px paleturquoise;
+    padding: 1rem;
+}
+
+.about-content section ul {
+    list-style:none;
+    color: darkblue;
+}
+
+    .about-content section h2{
+        font-size:2rem;
+        font-weight:bolder;
+        color:black;
+    }
+
+.about-content section h3 {
+    font-size: 1.5rem;
+    font-weight:bold;
+}
+
+.about-content section p {
+    font-size: 1rem;
+}
+    .about-content h1 {
+        text-align: center;
+        margin-bottom: 2rem;
+    }

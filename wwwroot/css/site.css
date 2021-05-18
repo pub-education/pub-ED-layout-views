@@ -62,7 +62,7 @@ html {
 body {
     /* Margin bottom by footer height */
     margin-bottom: 60px;
-    background: radial-gradient(whitesmoke, lightblue, blue);
+    background: radial-gradient(whitesmoke, lightblue, royalblue, blue);
 }
 .footer {
   position: absolute;

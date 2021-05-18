@@ -1,0 +1,24 @@
+﻿@{
+    ViewData["Title"] = "Contact Page";
+    ViewData["name"] = "contact";
+    ViewData["email"] = "info@chrisjohannesson.com";
+    ViewData["telephone"] = "+46-700-337-023";
+    ViewData["address"] = "5573 Lucky Luke Street West, 445 34 Jolly Jumperville, AZ";
+}
+
+<div class="@ViewData["name"]-wrapper">
+    <div class="@ViewData["name"]-content">
+        <h1>@ViewData["Title"]</h1>
+        <div class="table-wrapper">
+            <div class="email">
+            <input id="contact-email" class="contact-data email" type="text" value="@ViewData["email"]" disabled />
+                </div>
+            <div class="phone">
+                <input id="contact-telephone" class="contact-data phone" type="text" value="@ViewData["telephone"]" disabled />
+            </div>
+            <div class="address">
+                <textarea id="contact-address" class="contact-data address" type="text" disabled>@ViewData["address"]</textarea>
+            </div>
+        </div>
+    </div>
+</div>
